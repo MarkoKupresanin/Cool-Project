@@ -1,0 +1,56 @@
+# Cool-Project
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 3 JavaScript</title>
+  <script>
+    function calculateAdd() {
+      var num1 = document.getElementById("text1").value;
+      var num2 = document.getElementById("text2").value;
+      var result = parseFloat(num1) + parseFloat(num2);
+      alert(num1 + " + " + num2 + " = " + result);
+    }
+    
+    function calculateSubtract() {
+      var num1 = document.getElementById("text1").value;
+      var num2 = document.getElementById("text2").value;
+      var result = num1 - num2;
+      alert(num1 + " - " + num2 + " = " + result);
+    }
+    
+    function calculateMultiply() {
+      var num1 = document.getElementById("text1").value;
+      var num2 = document.getElementById("text2").value;
+      var result = num1 * num2;
+      alert(num1 + " * " + num2 + " = " + result);
+    }
+    
+    function calculateDivide() {
+      var num1 = document.getElementById("text1").value;
+      var num2 = document.getElementById("text2").value;
+      var result = num1 / num2;
+      alert(num1 + " / " + num2 + " = " + result);
+    }
+    
+    function calculateModulus() {
+      var num1 = document.getElementById("text1").value;
+      var num2 = document.getElementById("text2").value;
+      var result = num1 % num2;
+      alert(num1 + " % " + num2 + " = " + result);
+    }
+  </script>
+</head>
+<body>
+<!-- Start your code here -->
+  <input id="text1" placeholder="Enter the first number"/>
+  <br/>
+   <input id="text2" placeholder="Enter the second number"/>
+  <br/><br/>
+  <button onclick="calculateAdd()" id="button1">Add</button>
+  <button onclick="calculateSubtract()" id="button2">Subtract</button>
+  <button onclick="calculateMultiply()" id="button3">Multiply</button>
+  <button onclick="calculateDivide()" id="button4">Divide</button>
+  <button onclick="calculateModulus()" id="button5">Modulo</button>
+<!-- End your code here -->
+</body>
+</html>
