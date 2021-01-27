@@ -1,49 +1,95 @@
 h1 {
-  color: crimson;
+  color: darkblue;
   text-align: center;
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
   text-decoration: underline;
 }
 
 .background {
-   background-color: dodgerblue;
+   background-color: cornsilk;
 }
 
 a:link, a:visited {
     text-decoration: none;
 }
 
-  a:link {
-      color: blue;
-      }        
+a:link {
+    color: blue;
+}        
 
-  a:visited {
-      color: green;
-    }
+a:visited {
+    color: green;
+}
 
-  a:hover {
-    color: red;            
-    text-decoration: none; /*removes underline when hovering mouse over link*/
-    }
+a:hover {
+  color: red;            
+  text-decoration: none; /*removes underline when hovering mouse over link*/
+}
     
-    a:active {
-      color: orange;        
-      }
-
-
-.taco {
-  padding: 50px;
+a:active {
+    color: orange;        
 }
 
-.spacing {
-  padding: 370px;
-  margin: 10px auto 10px auto
+#button0 {
+  background-color: ivory;
+  border-radius: 15px;
 }
 
-h3 {
-  color: chocolate;
-  text-decoration: underline;
-  text-align: center;
+#button1 {
+  background-color: red;
+  border-radius: 15px;
 }
+
+#button2 {
+  background-color: orange;
+  border-radius: 15px;
+}
+
+#button3 {
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+#button4 {
+  background-color:chartreuse;
+  border-radius: 15px;
+}
+
+#button5 {
+  background-color: aqua;
+  border-radius: 15px;
+}
+
+#button6 {
+  background-color: fuchsia;
+  border-radius: 15px;
+}
+
+#text1 {
+  background-color: ivory;
+}
+
+#text2 {
+  background-color: ivory;
+}
+
+.thiccc {
+  border: none;
+  height: 5px;
+  color: #333;
+  background-color: #333; 
+}
+
 /* Let's write all the stuff here for css
 
 
