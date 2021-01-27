@@ -13,42 +13,64 @@
     <!--div thingy -->
     <div class="home">
       <h2>Stuff</h2>
-      <a href="https://www.google.com"> Nice!! </a>
+      <a href="https://www.google.com" target="_blank"> Nice!! </a>
       <br><br>
     </div>
 
     <!--Button -->
-    <input id="text1" placeholder="Enter any Number to Test"/>
+    <input id="number" placeholder="Enter any Number to Test"/>
       <br><br>
-    <button onclick="calculateTest()" id="button1">Click to Test</button>
+    <button onclick="calculateTest()" id="button1">Click to Test</button> <br>
+  
+  <div style="width: 100%;"> <!--Big Boi div tag Starting-->
+        <div style="float: left;"> <!--Form Div Tag>
+            <!-- Extremely cool form -->
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyhgMzsnVBmBTl8Aqonk9NpN30s2bbmTjrD0XFYNvntBOgYA/viewform?embedded=true" width="340" height="651" frameborder="0" marginheight="15" marginwidth="10">Loading…</iframe> 
+        </div>
 
-    <!-- Extremely cool form -->
-    <hr> <iframe class = "taco" align='left' src="https://docs.google.com/forms/d/e/1FAIpQLSeyhgMzsnVBmBTl8Aqonk9NpN30s2bbmTjrD0XFYNvntBOgYA/viewform?embedded=true" width="340" height="651" frameborder="10" marginheight="10" marginwidth="10">Loading…</iframe>
-    <div class="spacing">
-      <p> </p>
-    </div>
-  <!--links -->
-      <h3>Cool Links:</h3>          
-      <list>            
-        <ul>              
-          <li><a href="https://www.w3schools.com/html/" target="_blank">HTML Help - w3schools</a></li> <br>           
-          <li><a href="https://prospect.cuhsd.org/" target="_blank"><img src="https://d2rzw8waxoxhv2.cloudfront.net/logos/phs95070/1483996102378-109-26.png" height="70"></a></li> <br>           
+        <div style="margin-left: 25%"> <!--Links Div Tag-->
+            <!--cool links -->        
+            <list>            
+              <ul>              
+              <li><a href="https://www.w3schools.com/html/" target="_blank">HTML Help</a></li> <br>          
+              <li><a href="https://prospect.cuhsd.org/" target="_blank"><img src="https://d2rzw8waxoxhv2.cloudfront.net/logos/phs95070/1483996102378-109-26.png" height="70"></a></li> <br>          
           
-          <li><a href="https://slack.com/" target="_blank"><img src="https://www.sketchappsources.com/resources/source-image/new-slack-logo-nicolas-ciotti.jpg" height="50"></a></li> <br>
+              <li><a href="https://slack.com/" target="_blank"><img src="https://www.sketchappsources.com/resources/source-image/new-slack-logo-nicolas-ciotti.jpg" height="50"></a></li> <br>
           
-          <li><a href="https://github.com/amrikverma" target="_blank">Amrik <img src="https://miro.medium.com/max/719/1*WaaXnUvhvrswhBJSw4YTuQ.png" height="30"></a></li> <br>
+              <li><a href="https://github.com/amrikverma" target="_blank">Amrik <img src="https://miro.medium.com/max/719/1*WaaXnUvhvrswhBJSw4YTuQ.png" height="30"></a></li> <br>
           
-          <li><a href="https://github.com/MarkoKupresanin" target="_blank">Marko <img src="https://miro.medium.com/max/719/1*WaaXnUvhvrswhBJSw4YTuQ.png" height="30"></a></li> <br>
+              <li><a href="https://github.com/MarkoKupresanin" target="_blank">Marko <img src="https://miro.medium.com/max/719/1*WaaXnUvhvrswhBJSw4YTuQ.png" height="30"></a></li> <br>
           
-          <li><a href="https://www.instagram.com/amrik_verma_/" target="_blank">Amrik <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="50"></a></li> <br>
+              <li><a href="https://www.instagram.com/amrik_verma_/" target="_blank">Amrik <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="50"></a></li> <br>
           
-          <li><a
-          href="https://www.instagram.com/kaptainkermit1/" target="_blank">Marko <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="50"></a></li>
-        </ul>          
-      </list>
+              <li><a
+            href="https://www.instagram.com/kaptainkermit1/" target="_blank">Marko <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" height="50"></a></li> 
+            </ul>          
+          </list>
+        </div>
+
+        <div style="margin-left: 38%; margin-top: -29.75%"> <!--Calculator Div Tag-->
+        <!-- Calculator--> 
+        <input id="text1" placeholder="Enter the first number"/>
+        <br/>
+        <input id="text2" placeholder="Enter the second number"/>
+        <br/><br/>
+        <button onclick="calculateAdd()"    id="button1">Add</button>
+        <button onclick="calculateSubtract()" id="button2">Subtract</button>
+        <button onclick="calculateMultiply()" id="button3">Multiply</button>
+        <button onclick="calculateDivide()" id="button4">Divide</button>
+        <button onclick="calculateModulus()" id="button5">Remainder</button>
+        </div>
+  </div> <!--Big Boi div tag ENDING-->
+
+
+
+<!-- Javascript Link-->
   <script type="text/javascript" src="script.js"></script>
-  </body>
+</body>
 </html>
+
+
 
 <!-- Let's write all the stuff here for html
 
