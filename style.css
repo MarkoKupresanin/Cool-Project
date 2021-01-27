@@ -1,5 +1,7 @@
-.h1 {
+h1 {
   color: crimson;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .background {
@@ -10,9 +12,39 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+  a:link {
+      color: blue;
+      }        
+
+  a:visited {
+      color: green;
+    }
+
+  a:hover {
+    color: red;            
+    text-decoration: none; /*removes underline when hovering mouse over link*/
+    }
+    
+    a:active {
+      color: orange;        
+      }
+
+
+.taco {
+  padding: 50px;
+}
+
+.spacing {
+  padding: 370px;
+  margin: 10px auto 10px auto
+}
+
+h3 {
+  color: chocolate;
+  text-decoration: underline;
+  text-align: center;
+}
 /* Let's write all the stuff here for css
-
-
 
 
 */
