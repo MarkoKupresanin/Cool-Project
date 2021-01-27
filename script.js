@@ -46,12 +46,7 @@ function calculatePower()  {
   alert(num1 + " ^ " + num2 + " = " + result);
 }
 
-
-
-/* Let's write all the stuff here for js
+/* JavaScript Comments:
  
 
-
-
- 
  */
