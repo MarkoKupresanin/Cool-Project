@@ -1,3 +1,3 @@
 # Cool-Project
 
-lol
+Hello! We smart boiis lol
