@@ -1,16 +1,17 @@
-class Dog:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+import math
+def p(xyz):
+  print(xyz)
 
-  name = ""
-  age = 0
+name = input("Name: \n")
+p("\n" + name + " is an amazing name!")
 
-  def bark(self):
-    print("Woof")
+ask = input("\nDo you want to play a game? Yes or No: \n")
+if(ask == "Yes"):
+  p("\nSending you to the game...")
 
-dog1 = Dog("Scruffy, ", 5)
+elif(ask == "No"):
+  p("\nAwww, okay. Come back again!")
+else:
+  p("Sorry, invalid syntax, try agaiun. Please write 'Yes' or 'No'")
 
-dog1.age
-dog1.name
-dog1.bark()
+#def game():
