@@ -12,3 +12,20 @@ C INTEGER VARIABLES START WITH I,J,K,L,M OR N
      $13H SQUARE UNITS)
       STOP
       END
+      
+      
+program addNumbers
+
+! This simple program adds two numbers
+   implicit none
+
+! Type declarations
+   real :: a, b, result
+
+! Executable statements
+   a = 12.0
+   b = 15.0
+   result = a + b
+   print *, 'The total is ', result
+
+end program addNumbers
